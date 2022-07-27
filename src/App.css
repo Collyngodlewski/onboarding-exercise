@@ -36,3 +36,78 @@
     transform: rotate(360deg);
   }
 }
+
+.Search-bar{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  gap: .25rem;
+}
+
+input{
+  display: flex;
+  font-size: 2rem;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.Movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+
+.Movies img {
+  
+  width:  500px;
+  height: 700px;
+
+}
+
+.Movie-box {
+  width: 25%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 2% 2%;
+  margin: 2% 0;
+}
+
+.Movie-box:hover{
+  transform: scale(1.1);
+  transition: .3s;
+}
+
+
+  .Buttons {
+    background-color: #FFFFFF;
+    border: 1px solid #222222;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #222222;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    padding: 13px 23px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    width: 25%;
+  }
+  
+  .Buttons:active {
+    background-color: #F7F7F7;
+    border-color: #000000;
+    transform: scale(.96);
+  }
+  
+  .Buttons:hover {
+    background-color:#484c70;
+    border-color: #000000;
+    transition: .3s;
+  }
+
