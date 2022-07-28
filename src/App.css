@@ -55,15 +55,14 @@ input{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  width: 100%;
+  
 }
 
 
 
 .Movies img {
-  
-  width:  500px;
-  height: 700px;
-
+  width:  100%;
 }
 
 .Movie-box {
@@ -71,10 +70,12 @@ input{
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   padding: 2% 2%;
   margin: 2% 0;
+
+
 }
 
 .Movie-box:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: .3s;
 }
 
